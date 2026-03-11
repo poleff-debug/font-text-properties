@@ -25,23 +25,8 @@
     /* Font Stacks */
     /* add the two font stacks here */
 
-	.lato-regular {
-	font-family: "Lato", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	}
-
-	.lato-bold {
-	font-family: "Lato", sans-serif;
-	font-weight: 700;
-	font-style: normal;
-	}
-
-	.seymour-one-regular {
-	font-family: "Seymour One", sans-serif;
-	font-weight: 400;
-	font-style: normal;
-	}
+	--heading-fonts: "Seymour One", sans-serif;
+	--body-fonts: "Lato", Arial, sans-serif;
 
 }
 
@@ -50,7 +35,7 @@ body{
 	/* Set the line height to 1.5 */
 	/* set the font size to 1.1rem	*/
 	/* set the font color to #222 (--dk-gray) */
-	font-family: ;
+	font-family: var(--body-fonts);
 	line-height: 1.5;
 	font-size: 1.1rem;
 	color: var(--dk-gray);
@@ -67,8 +52,8 @@ header{
 
 h1, h2, h3{
 	text-align: center;
-	font-family: "Seymour One", sans-serif;
-	text-transform: small-caps;
+	font-family: var(--heading-fonts);
+	font-variant: small-caps;
 	/* center align the text */
 	/* use a web font here (instructions on page) */
 	/* make the heading text all small caps style */
