@@ -24,6 +24,23 @@
 
     /* Font Stacks */
     /* add the two font stacks here */
+	.lato-regular {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+	.lato-bold {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+	.seymour-one-regular {
+  font-family: "Seymour One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 }
 
 body{
